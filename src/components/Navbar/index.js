@@ -78,7 +78,7 @@ const Navbar = ({ toggle }) => {
                                     exact='true'
                                     offset={-80}
                                 >
-                                    Equipo
+                                    Profesores
                                 </NavLinks>
                             </NavItem>
                         </NavMenu>

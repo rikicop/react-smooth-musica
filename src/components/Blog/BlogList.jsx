@@ -1,24 +1,44 @@
 import { Link } from "react-router-dom";
-import "./Card.scss"
+import {Container,Navbar,Wrapper,Card,CardImage,
+        CardTitle,CardBtn, GlobalStyle, 
+        LeftNavTitle, RightNavTitle, NavBtnLink} from './CardElements';
 
-const  BlogList = ({blogs}) => {
-        return( 
-            <div className="wrapper"> 
-            {
-            blogs.map(blog=>( 
-            <div className="card" key={blog.id}> 
-                <div className="card__body" >
-                    <img src={blog.foto} alt="comida" className="card__image"/>
-                    <h2 className="card__title">{blog.title}</h2>
-                </div>
-                <Link to={`/api/${blog.id}`}>
-                    <button className="card__btn">Ver Publicación</button>
-                </Link>
-            </div>  
-            ))}
-            </div>
-             
-        )
+import { useHistory } from "react-router";
+
+
+const BlogList = ({ blogs }) => {
+    let history = useHistory();
+    function HandleHistory(){
+        history.push('/');
+        window.location.reload() 
     }
+    return (
+    <>  
+        <GlobalStyle/>
+        <Container>
+            <Navbar>
+            <LeftNavTitle>Blogs </LeftNavTitle>
+                   <RightNavTitle>
+                     <NavBtnLink onClick={HandleHistory}>Tecnemas</NavBtnLink>
+                   </RightNavTitle>
+            </Navbar>
+            <Wrapper>
+                {
+                    blogs.map(blog => (
+                        <Card key={blog.id}>
+                            <div>
+                                <CardImage src={blog.foto} alt="comida"/>
+                                <CardTitle>{blog.title}</CardTitle>
+                            </div>
+                            <Link to={`/api/${blog.id}`}>
+                                <CardBtn>Ver Publicación</CardBtn>
+                            </Link>
+                        </Card>
+                    ))}
+            </Wrapper>
+        </Container>
+    </>
+    )
+}
 
-export default  BlogList
+export default BlogList

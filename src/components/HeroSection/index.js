@@ -21,9 +21,9 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Bienvenidos a Tecnemas</HeroH1>
+                <HeroH1>Escuela de Música</HeroH1>
                 <HeroP>
-                "Instrumentos filosóficos para emprendimientos tecnológicos"
+                "Bienvenidos a la Escuela de Música de la Facultad Experimental de Arte"
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="principal"

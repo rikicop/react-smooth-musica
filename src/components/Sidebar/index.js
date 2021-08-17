@@ -20,7 +20,7 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarMenu>
                     <SidebarLink to='principal' onClick={toggle}>Principal</SidebarLink>
                     <SidebarLink to='servicios' onClick={toggle}>Publicaciones</SidebarLink>
-                    <SidebarLink to='carusel' onClick={toggle}>Equipo</SidebarLink>
+                    <SidebarLink to='carusel' onClick={toggle}>Profesores</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
                     <SidebarRoute to='/api'>Blog</SidebarRoute>

@@ -18,30 +18,30 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 const data = [
   {
     id:1,
-    username: 'Fernando Otálora',
-    titulo: 'Doctor en Fisiología Sensorial',
-    testimonial: 'Investigo el comportamiento sensorial de los animales desde un enfoque fisiológico y biosemiótico.',
+    username: 'Ramón Araujo',
+    titulo: 'Profesor de Armonía',
+    testimonial: 'Profesor de Armonía.',
     img:Photo1
   },
   {
     id:2,
-    username: 'Elis Aldana',
-    titulo: 'Doctor en Ciencias',
-    testimonial: 'Profesor Titular del Departamento de Biología de la Facultad de Ciencias de la Universidad de Los Andes.',
+    username: 'Juan Carlos Bersague Chacon',
+    titulo: 'Profesor de Dirección Coral',
+    testimonial: 'Profesor de Dirección Coral.',
     img:Photo2
   },
   {
     id:3,
-    username: 'Ricardo Otálora',
-    titulo: 'Ing. en Informática y músico',
-    testimonial: 'Desarrollo de aplicaiones web en Django, Html, Css  y  músico pianista.',
+    username: 'Víctor Dávila',
+    titulo: 'Profesor de Guitarra',
+    testimonial: 'Profesor de Guitarra.',
     img:Photo3
   },
   {
     id:4,
-    username: 'Oscar Páez',
-    titulo: 'Biólogo',
-    testimonial: 'Doctorante de Etología de la Facultad de Ciencias de la Universidad de Los Andes.',
+    username: 'Gustavo Basanta Zamudio',
+    titulo: 'Profesor de Metodología',
+    testimonial: 'Profesor de Metodología.',
     img:Photo4
   }
 
@@ -50,7 +50,7 @@ const data = [
 function Carusel() {
   return (
     <div className="carusel-container" id="carusel">
-     <div className="carusel-title"><h1>Equipo</h1></div> 
+     <div className="carusel-title"><h1>Profesores</h1></div> 
     <Swiper
       spaceBetween={20}
       autoplay={{"delay": 1500,"disableOnInteraction": false}}
