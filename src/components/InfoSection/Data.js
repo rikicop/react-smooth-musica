@@ -27,7 +27,7 @@ export const homeObjTwo ={
     description: 'La Escuela de Música de la Universidad de LUZ se dedica a ayudar a los estudiantes a atravesar este momento desafiante mientras priorizan su seguridad. La forma en que los estudiantes crean e interpretan música ha cambiado, pero su impulso y la calidad de su oficio continúa creciendo a medida que se convierten en intérpretes experimentados y preparados para una carrera. ',
     buttonLabel: 'Infórmate Más', 
     imgStart: true,
-    img: require('../../images/svg-2.svg').default,
+    img: require('../../images/mascarilla.png').default,
     alt: 'Piggybank',
     dark: false,
     primary: false,

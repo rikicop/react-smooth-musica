@@ -19,7 +19,7 @@ const BlogList = ({ blogs }) => {
             <Navbar>
             <LeftNavTitle>Blogs </LeftNavTitle>
                    <RightNavTitle>
-                     <NavBtnLink onClick={HandleHistory}>Tecnemas</NavBtnLink>
+                     <NavBtnLink onClick={HandleHistory}>Principal</NavBtnLink>
                    </RightNavTitle>
             </Navbar>
             <Wrapper>

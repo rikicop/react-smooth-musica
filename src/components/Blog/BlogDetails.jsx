@@ -31,7 +31,7 @@ import {FaFacebook,FaInstagram} from 'react-icons/fa';
                  <Navbar>
                    <LeftNavTitle>Blog </LeftNavTitle>
                    <RightNavTitle>
-                     <NavBtnLink onClick={HandleHistory}>Tecnemas</NavBtnLink>
+                     <NavBtnLink onClick={HandleHistory}>Principal</NavBtnLink>
                    </RightNavTitle>
                  </Navbar>
                    <Titulo> 
