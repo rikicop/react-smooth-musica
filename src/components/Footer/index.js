@@ -21,9 +21,9 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
-                            Tecnemas
+                        Escuela de Música
                         </SocialLogo>
-                        <WebsiteRights>Tecnemas © {new Date().getFullYear()}
+                        <WebsiteRights>Escuela de Música © {new Date().getFullYear()}
                         Todos Los Derechos Reservados</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="https://www.facebook.com/groups/EstudiantesFEDAluz" target="_blank" aria-label="Facebook">

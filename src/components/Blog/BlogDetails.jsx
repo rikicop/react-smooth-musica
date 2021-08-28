@@ -42,7 +42,7 @@ import {FaFacebook,FaInstagram} from 'react-icons/fa';
                      <Imagen src={blog.foto} alt=""/>
                    </Content3>
                    
-                   <Content dangerouslySetInnerHTML={{ __html: `${blog.description}` }} />
+                   <Content dangerouslySetInnerHTML={{ __html: `${blog.body}` }} />
                     
                    <Footer>
                    <SocialMediaWrap>

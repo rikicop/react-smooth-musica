@@ -33,7 +33,7 @@ const Services = () => {
                     <ServicesCard>
                         <ServicesIcon src={blog.foto}/>
                         <ServicesH2>{blog.title}</ServicesH2>
-                        <ServicesP>{blog.body}</ServicesP>
+                        <ServicesP>{blog.description}</ServicesP>
                     </ServicesCard>
                   </ServicesLink>)
               }else{
